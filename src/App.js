@@ -1,12 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
 import MainPage from '../src/pages/Main'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
-      <MainPage />
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path="/" component={MainPage} />
+      </Switch>
+    </Router>
   );
 }
 
