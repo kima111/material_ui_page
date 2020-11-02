@@ -1,11 +1,11 @@
 import React from 'react'
-import Layout from '../../components/Layout'
 import { Jumbotron, Container } from 'react-bootstrap'
+import MainImage from '../../assets/images/main_image.jpg'
 export default function index() {
     return (
         <div>
-            <Layout />
-            <Jumbotron fluid>
+
+            <Jumbotron style={{background: `url(${MainImage}) fixed center center`, backgroundSize: 'cover',minHeight:'80vh', height: "100%", marginTop: '16px'}} fluid>
                 <Container>
                     <h1>Fluid jumbotron</h1>
                     <p>
@@ -14,6 +14,7 @@ export default function index() {
                     </p>
                 </Container>
             </Jumbotron>
+   
         </div>
     )
 }
