@@ -97,6 +97,7 @@ export default function PersistentDrawerLeft() {
         className={clsx(classes.appBar, {
           [classes.appBarShift]: open,
         })}
+        style={{backgroundColor: 'rgba(255,255,255,0)'}}
       >
         <Toolbar>
           <IconButton
@@ -109,7 +110,7 @@ export default function PersistentDrawerLeft() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Material UI Page
+            Welcome to My Portfolio Page
           </Typography>
         </Toolbar>
       </AppBar>
