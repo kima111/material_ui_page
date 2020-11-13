@@ -5,12 +5,22 @@
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 </style>
-<rect x="0" y="891.63" class="st0" width="75" height="188.37"/>
-<polygon class="st0" points="181.05,891 126.68,985.5 126.68,891 "/>
-<polygon class="st0" points="256,1079.69 164,1001.83 254.75,891.31 "/>
-<polygon class="st0" points="174.29,1079.69 126.68,1079.69 126.68,1026.31 "/>
-<rect x="316" y="892" class="st0" width="30" height="188"/>
-<polygon class="st0" points="446.54,1079.43 401.5,1079.43 402.72,959 "/>
-<polygon class="st0" points="494,1079.74 452.02,1079.74 492.87,959.31 "/>
-<rect x="552" y="892" class="st0" width="30" height="188"/>
+<rect y="875" class="st0" width="75" height="205"/>
+<polygon class="st0" points="181.1,875 126.7,960.9 126.7,875 "/>
+<polygon class="st0" points="264,1089 174.3,996.8 262.8,866 "/>
+<polygon class="st0" points="174.3,1079.7 126.7,1079.7 126.7,1002.7 "/>
+<rect x="316" y="875" class="st0" width="30" height="205"/>
+<polygon class="st0" points="446.5,1079.3 401.5,1079.3 402.7,926 "/>
+<polygon class="st0" points="494,1079.7 452,1079.7 492.9,926.4 "/>
+<rect x="552" y="875" class="st0" width="30" height="205"/>
+<rect x="640" y="919" class="st0" width="32" height="56"/>
+<rect x="640" y="1004" class="st0" width="32" height="76"/>
+<rect x="728" y="875" class="st0" width="43" height="204.4"/>
+<rect x="830.5" y="791" class="st0" width="67.5" height="288.4"/>
+<rect x="960.9" y="725" class="st0" width="60.1" height="354.4"/>
+<rect x="1091.3" y="725" class="st0" width="79.7" height="354.4"/>
+<rect y="839" class="st0" width="836" height="39.3"/>
+<rect x="881.5" y="791" class="st0" width="88.5" height="23"/>
+<rect x="1008.4" y="725" class="st0" width="95.1" height="31"/>
+<polygon class="st0" points="469,875 446.5,926 428,875 "/>
 </svg>
