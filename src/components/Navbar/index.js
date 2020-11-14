@@ -110,7 +110,7 @@ export default function PersistentDrawerLeft() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" noWrap>
-            Welcome to My Portfolio Page
+          
           </Typography>
         </Toolbar>
       </AppBar>

@@ -5,22 +5,22 @@
 <style type="text/css">
 	.st0{fill:#FFFFFF;}
 </style>
-<rect y="875" class="st0" width="75" height="205"/>
-<polygon class="st0" points="181.1,875 126.7,960.9 126.7,875 "/>
-<polygon class="st0" points="264,1089 174.3,996.8 262.8,866 "/>
-<polygon class="st0" points="174.3,1079.7 126.7,1079.7 126.7,1002.7 "/>
-<rect x="316" y="875" class="st0" width="30" height="205"/>
-<polygon class="st0" points="446.5,1079.3 401.5,1079.3 402.7,926 "/>
-<polygon class="st0" points="494,1079.7 452,1079.7 492.9,926.4 "/>
-<rect x="552" y="875" class="st0" width="30" height="205"/>
-<rect x="640" y="919" class="st0" width="32" height="56"/>
-<rect x="640" y="1004" class="st0" width="32" height="76"/>
-<rect x="728" y="875" class="st0" width="43" height="204.4"/>
-<rect x="830.5" y="791" class="st0" width="67.5" height="288.4"/>
-<rect x="960.9" y="725" class="st0" width="60.1" height="354.4"/>
-<rect x="1091.3" y="725" class="st0" width="79.7" height="354.4"/>
-<rect y="839" class="st0" width="836" height="39.3"/>
-<rect x="881.5" y="791" class="st0" width="88.5" height="23"/>
-<rect x="1008.4" y="725" class="st0" width="95.1" height="31"/>
-<polygon class="st0" points="469,875 446.5,926 428,875 "/>
+<rect y="529.8" class="st0" width="55.8" height="152.5"/>
+<polygon class="st0" points="134.7,529.8 94.2,593.7 94.2,529.8 "/>
+<polygon class="st0" points="196.4,689 129.6,620.4 195.5,523.1 "/>
+<polygon class="st0" points="129.6,682.1 94.2,682.1 94.2,624.8 "/>
+<rect x="235" y="529.8" class="st0" width="22.3" height="152.5"/>
+<polygon class="st0" points="332.1,681.8 298.6,681.8 299.5,567.8 "/>
+<polygon class="st0" points="367.4,682.1 336.2,682.1 366.6,568.1 "/>
+<rect x="410.6" y="529.8" class="st0" width="22.3" height="152.5"/>
+<rect x="476" y="562.6" class="st0" width="23.8" height="41.7"/>
+<rect x="476" y="625.8" class="st0" width="23.8" height="56.5"/>
+<rect x="541.5" y="529.8" class="st0" width="32" height="152.1"/>
+<rect x="617.7" y="467.4" class="st0" width="50.2" height="214.5"/>
+<rect x="714.7" y="418.3" class="st0" width="44.7" height="263.6"/>
+<rect x="811.7" y="418.3" class="st0" width="59.3" height="263.6"/>
+<rect y="503.1" class="st0" width="621.8" height="29.3"/>
+<rect x="655.7" y="467.4" class="st0" width="65.8" height="17.1"/>
+<rect x="750" y="418.3" class="st0" width="70.7" height="23.1"/>
+<polygon class="st0" points="348.8,529.8 332.1,567.8 318.3,529.8 "/>
 </svg>
