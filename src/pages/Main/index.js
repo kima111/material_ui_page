@@ -68,20 +68,23 @@ export default function Main() {
         <p style={{fontSize: '2em'}}>Of course, some of my best projects <img style={{width: '3.5vw'}} src="https://media0.giphy.com/media/QWvra259h4LCvdJnxP/giphy.gif"/></p>
 
         </Grid>
-        <Grid container spacing={2}>
-          <Grid item sm={2} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
+        <Grid container spacing={2} justify="center">
+          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
             <ProjectCard imageSource={P1Image} title="Clicky Game" description="A game to test your memory. A project which uses React."/>
           </Grid>
-          <Grid item sm={2} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
+          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
             <ProjectCard/>
           </Grid>
-          <Grid item sm={2} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
+          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
             <ProjectCard/>
           </Grid>
-          <Grid item sm={2} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
+          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
             <ProjectCard/>
           </Grid>
-          <Grid item sm={2} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
+          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
+            <ProjectCard/>
+          </Grid>
+          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
             <ProjectCard/>
           </Grid>
 
