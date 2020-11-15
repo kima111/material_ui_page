@@ -3,6 +3,9 @@ import BGVideo from '../../components/BackgroundVideo'
 import { ReactComponent as Ksvg } from '../../assets/images/Kim.svg'
 import { ReactComponent as Bsvg } from '../../assets/images/ProfileBoundary.svg'
 import P1Image from '../../assets/images/Projects/Clicky_Game.PNG'
+import P2Image from '../../assets/images/Projects/Paju.PNG'
+import P3Image from '../../assets/images/Projects/eQuipt.PNG'
+import P4Image from '../../assets/images/Projects/WordGuessingGamePic.PNG'
 import ProjectCard from '../../components/ProjectCard'
 import { Container, Grid } from '@material-ui/core'
 import Test from '../../assets/images/test.png'
@@ -65,24 +68,24 @@ export default function Main() {
         <hr />
         <br />
         <br />
-        <p style={{fontSize: '2em'}}>Of course, some of my best projects <img style={{width: '3.5vw'}} src="https://media0.giphy.com/media/QWvra259h4LCvdJnxP/giphy.gif"/></p>
+        <p style={{fontSize: '2em'}}>Of course, some of my best projects:</p>
 
         </Grid>
         <Grid container spacing={2} justify="center">
           <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
+            <ProjectCard />
+          </Grid>
+          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
+            <ProjectCard imageSource={P2Image} title="Paju" description="Volunteered some time to help out a local business during the COVID-19 Pandemic. This is a full stack production website, that uses database triggers to enable real time UI changes. In addition, it enables chronological features using Cron Jobs."/>
+          </Grid>
+          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
+            <ProjectCard imageSource={P3Image} title="eQuipt" description="A great way for LARPs (Live Action Role Players) to keep stock of their inventory and even give some to other players. A project which uses the full MERN stack (Mongo, Express, React, Node)."/>
+          </Grid>
+          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
             <ProjectCard imageSource={P1Image} title="Clicky Game" description="A game to test your memory. A project which uses React."/>
           </Grid>
           <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-            <ProjectCard/>
-          </Grid>
-          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-            <ProjectCard/>
-          </Grid>
-          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-            <ProjectCard/>
-          </Grid>
-          <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-            <ProjectCard/>
+            <ProjectCard imageSource={P4Image} title="Word Guessing Game" description="See if you can guess the words. App demonstrating the use of pure javascript."/>
           </Grid>
           <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
             <ProjectCard/>

@@ -1,19 +1,21 @@
 :root{
-    --gradient: linear-gradient(90deg, #df54a7 0%, #7571ac 100%);
+    --gradient: linear-gradient(45deg, #bd8ca9 0%, #7930ee 100%);
+    --light-gradient: linear-gradient(45deg, rgb(114, 110, 110) 0%, #8d999e 100%);
     --long: 0.7s;
     --short: 0.2s;
 }
 .card{
     width: 300px;
-    height: 470px;
+    height: 520px;
     background-color: #ffffff;
     border-radius: 10px;
     border-style: solid;
-    border-width: 1px;
-    border-color: #888888;
+    border-width: 0.5px;
+    border-color: #000;
     display: grid;
-    grid-template-rows: auto 100px;
+    grid-template-rows: auto 300px;
     overflow: hidden;
+ 
 }
 .image-box{
     width: 300px;
@@ -32,19 +34,23 @@
     text-align: center;
     width: 300px;
     position: relative;
+    background: var(--light-gradient);
 }
 .title{
     font-size: 26px;
     font-weight: bold;
+    color: #fff;
     
 }
 .description{
     font-size: 1em;
+    padding: 10px;
+    color: #fff;
 }
 .btn{
     // padding-top: 4px;
     position: absolute;
-    width: 105px;
+    width: 110px;
     height: 38px;
     background: var(--gradient);
     left: 50%;
