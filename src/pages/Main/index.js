@@ -7,6 +7,7 @@ import P2Image from '../../assets/images/Projects/Paju.PNG'
 import P3Image from '../../assets/images/Projects/eQuipt.PNG'
 import P4Image from '../../assets/images/Projects/WordGuessingGamePic.PNG'
 import P5Image from '../../assets/images/Projects/MEANR.PNG'
+import P6Image from '../../assets/images/Projects/Care_Hawaii.PNG'
 import ProjectCard from '../../components/ProjectCard'
 import { Container, Grid } from '@material-ui/core'
 import Test from '../../assets/images/test.png'
@@ -46,7 +47,7 @@ export default function Main() {
       
       <Grid container spacing={2} justify="center">
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-          <ProjectCard />
+          <ProjectCard imageSource={P6Image} title="Care Hawaii" description="Created a website for Care Hawaii organization, that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
           <ProjectCard imageSource={P2Image} title="Paju" description="Volunteered some time to help out a local business during the COVID-19 Pandemic. This is a full stack production website, that uses database triggers to enable real time UI changes. In addition, it enables chronological features using Cron Jobs."/>
@@ -73,10 +74,13 @@ export default function Main() {
 
           <p style={{ fontSize: '2em' }}>Tech I truly enjoy and <img style={{width: '28px', marginTop: '-6px'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png"/> working with:</p>
           <Grid container spacing={2}>
-
+            
             <Grid item sm={3} style={{ textAlign: 'center' }}>
+            <FadeOnUp duration='2s'>
               <img style={{ width: '18vw' }} src="https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/2020-05/react-js-blog-header.png?itok=VbfDeSgJ" />
+              </FadeOnUp>
             </Grid>
+           
             <Grid item sm={3} style={{ textAlign: 'center' }}>
               <img style={{ width: '10vw' }} src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" />
             </Grid>
