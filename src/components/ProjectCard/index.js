@@ -1,16 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../../components/ProjectCard/index.scss'
 
-export default function index(props) {
+export default function ProjectCard(props) {
+    const [active, setActive] = useState(false)
     return (
         
-            <div className='card'>
+            <div className={active ? 'card active' : 'card'}>
                 <div className='image-box'>
                     <img className='image-profile' src={props.imageSource} />
                 </div>
                 <div className='bottom'>
                     <div className='btn'>
-                        <div class='btn-text'><span>More</span><span>Close</span></div>
+                        <div class='btn-text'><span onClick={setActive}>More</span><span onClick={setActive}>Close</span></div>
                     </div>
                     <div className='title'>{props.title}</div>
                     <div className='description'>{props.description}</div>
