@@ -15,7 +15,17 @@ export default function index(props) {
                     <div className='title'>{props.title}</div>
                     <div className='description'>{props.description}</div>
                 </div>
+                <div className="social">
+                    <p>Follow Me
+                        <div className="social-links">
+                            <a href="https://facebook.com">
+                                <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/facebook-official-512.png"/>
+                            </a>
+                        </div>
+                    </p>
+                </div>
             </div>
 
     )
 }
+    

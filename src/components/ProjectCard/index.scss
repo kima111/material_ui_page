@@ -17,6 +17,7 @@
     overflow: hidden;
     transition: 0.5s ease;
     cursor: pointer;
+    position: relative;
  
 }
 .card:hover{
@@ -76,4 +77,63 @@
     grid-template-rows: 1fr 1fr;
     transition: var(--long);
 
+}
+.social{
+    padding: 20px;
+    position: absolute;
+    background-color:transparent;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+    
+}
+.social p {
+    margin-top: 50px;
+    border: 1px solid #fff;
+    height: fit-content;
+    padding: 0 10px;
+    border-radius: 20px;
+}
+.social-links{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 30px;
+    display: flex; 
+    justify-content: space-between;
+}
+.social-links img {
+    width: 45px;
+}
+.social-links a {
+    transition: var(--short);
+}
+a:hover {
+    transform: translateY(-5px);
+}
+
+.card.active .name, 
+.card.active .designation {
+    transform:  translateY(-310px);
+    color: #fff;
+}
+.card.active .btn{
+    transform: translate(-50%, 30px);
+}
+.card.active .profile-image {
+    height: 470px;
+}
+
+.card.active btn-text {
+    transform: translateY(-30px);
+}
+.card.active .social {
+    top: 0;
+    background-color: rgba(0,0,0,0.4);
 }
