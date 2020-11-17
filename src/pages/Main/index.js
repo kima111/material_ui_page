@@ -47,7 +47,7 @@ export default function Main() {
       
       <Grid container spacing={2} justify="center">
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-          <ProjectCard imageSource={P6Image} title="Care Hawaii" description="Created a website for Care Hawaii organization, that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers."/>
+          <ProjectCard imageSource={P6Image} projectLink="https://care-hawaii.herokuapp.com/"title="Care Hawaii" description="Created a website for Care Hawaii organization, that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
           <ProjectCard imageSource={P2Image} title="Paju" description="Volunteered some time to help out a local business during the COVID-19 Pandemic. This is a full stack production website, that uses database triggers to enable real time UI changes. In addition, it enables chronological features using Cron Jobs."/>

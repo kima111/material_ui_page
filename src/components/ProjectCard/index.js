@@ -1,27 +1,28 @@
 import React, {useState} from 'react'
 import '../../components/ProjectCard/index.scss'
+import {BsLink} from 'react-icons/bs'
 
 export default function ProjectCard(props) {
     const [active, setActive] = useState(false)
  
     return (
         
-            <div className={active ? 'card active' : 'card'}>
+            <div onClick={()=>setActive(!active)}  className={active ? 'card active' : 'card'}>
                 <div className='image-box'>
                     <img className='image-profile' src={props.imageSource} />
                 </div>
                 <div className='bottom'>
-                    <div  onClick={()=>setActive(!active)} className={active ? 'btn-close': 'btn'}>
+                    <div className={active ? 'btn-close':'btn'}>
                         <span>{active ? 'Close': 'More'}</span>
                     </div>
                     <div className='title'>{props.title}</div>
                     <div className='description'>{props.description}</div>
                 </div>
                 <div className="social">
-                    <p>Follow Me
+                    <p>Take a look:
                         <div className="social-links">
-                            <a href="https://facebook.com">
-                                <img src="https://cdn2.iconfinder.com/data/icons/font-awesome/1792/facebook-official-512.png"/>
+                            <a href={props.projectLink} target="_blank">
+                                <BsLink style={{fontSize: '3em', color: '#fff'}} />
                             </a>
                         </div>
                     </p>

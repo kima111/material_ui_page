@@ -71,21 +71,14 @@
     transition: var(--long);
 
 }
-.btn-text{
-    height: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    transition: var(--long);
-
-}
 .btn-close{
-    // padding-top: 4px;
+    padding-top: 5px;
     position: absolute;
     width: 110px;
     height: 38px;
     background: rgb(79, 167, 71);
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 220px);
     border-radius: 25px;
     color: #fff;
     cursor: pointer;
@@ -95,6 +88,12 @@
     transition: var(--long);
 
 }
+// .btn-text{
+//     height: 100%;
+//     display: grid;
+//     grid-template-rows: 1fr 1fr;
+//     transition: var(--long);
+// }
 .social{
     padding: 20px;
     position: absolute;
@@ -135,22 +134,12 @@ a:hover {
     transform: translateY(-5px);
 }
 
-.card.active .name, 
-.card.active .designation {
-    transform:  translateY(-310px);
-    color: #fff;
-}
-.card.active .btn{
-    transform: translate(-50%, 30px);
-}
-.card.active .profile-image {
-    height: 470px;
-}
-
-.card.active btn-text {
-    transform: translateY(-30px);
-}
-.card.active .social {
+// .card.active .name, 
+// .card.active .designation {
+//     transform:  translateY(-310px);
+//     color: #fff;
+// }
+.card.active .social{
     top: 0;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.8);
 }
