@@ -4,6 +4,10 @@
     --long: 0.7s;
     --short: 0.2s;
 }
+p{
+    font-family: 'Abel', sans-serif;
+
+}
 .card{
     width: 300px;
     height: 520px;
@@ -46,6 +50,7 @@
 .title{
     font-size: 26px;
     font-weight: bold;
+    font-family: 'Abel', sans-serif;
     color: #fff;
     
 }
@@ -53,6 +58,8 @@
     font-size: 1em;
     padding: 10px;
     color: #fff;
+    font-family: 'Abel', sans-serif;
+
 }
 .btn{
     // padding-top: 4px;

@@ -2,7 +2,7 @@ import React from 'react'
 import BGVideo from '../../components/BackgroundVideo'
 import { ReactComponent as Ksvg } from '../../assets/images/Kim.svg'
 import { ReactComponent as Bsvg } from '../../assets/images/ProfileBoundary.svg'
-import P1Image from '../../assets/images/Projects/Clicky_Game.PNG'
+import P1Image from '../../assets/images/Projects/bamazon.PNG'
 import P2Image from '../../assets/images/Projects/Paju.PNG'
 import P3Image from '../../assets/images/Projects/eQuipt.PNG'
 import P4Image from '../../assets/images/Projects/WordGuessingGamePic.PNG'
@@ -56,7 +56,7 @@ export default function Main() {
           <ProjectCard imageSource={P3Image} title="eQuipt" description="A great way for LARPs (Live Action Role Players) to keep stock of their inventory and even give some to other players. A project which uses the full MERN stack (Mongo, Express, React, Node)."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-          <ProjectCard imageSource={P1Image} title="Clicky Game" description="A game to test your memory. A React based project."/>
+          <ProjectCard imageSource={P1Image} title="Bamazon" description="This is a Command Line Interface app which will work a lot like a purchasing terminal deomonstrating the use of Node.js which is connected to MySQL database."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
           <ProjectCard imageSource={P4Image} title="Word Guessing Game" description="See if you can guess the words. App demonstrating the use of pure javascript."/>
