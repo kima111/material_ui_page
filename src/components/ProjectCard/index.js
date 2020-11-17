@@ -3,6 +3,7 @@ import '../../components/ProjectCard/index.scss'
 
 export default function ProjectCard(props) {
     const [active, setActive] = useState(false)
+ 
     return (
         
             <div className={active ? 'card active' : 'card'}>
@@ -10,8 +11,8 @@ export default function ProjectCard(props) {
                     <img className='image-profile' src={props.imageSource} />
                 </div>
                 <div className='bottom'>
-                    <div className='btn'>
-                        <div class='btn-text'><span onClick={setActive}>More</span><span onClick={setActive}>Close</span></div>
+                    <div  onClick={()=>setActive(!active)} className={active ? 'btn-close': 'btn'}>
+                        <span>{active ? 'Close': 'More'}</span>
                     </div>
                     <div className='title'>{props.title}</div>
                     <div className='description'>{props.description}</div>

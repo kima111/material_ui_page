@@ -78,6 +78,23 @@
     transition: var(--long);
 
 }
+.btn-close{
+    // padding-top: 4px;
+    position: absolute;
+    width: 110px;
+    height: 38px;
+    background: rgb(79, 167, 71);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    z-index: 2;
+    transition: var(--long);
+
+}
 .social{
     padding: 20px;
     position: absolute;
