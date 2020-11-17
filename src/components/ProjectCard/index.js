@@ -23,9 +23,9 @@ export default function ProjectCard(props) {
                 <div className="social">
                     <p>Feel free to take a closer look:
                         <div className="social-links">
-                            {props.webLink ? <a href={props.webLink} target='_blank'><BiWorld style={{fontSize: '2.7em', color: '#fff'}}/></a>:''}
-                            {props.githubLink ? <a href={props.githubLink} target="_blank" style={{marginLeft: '10px'}}><AiFillGithub style={{fontSize: '2.5em', color: '#fff'}} /></a>:''}
-                            {props.herokuLink ? <a href={props.herokuLink} target="_blank" style={{marginLeft: '12px', marginTop: '3px'}}><GrHeroku style={{fontSize: '2.3em', color: '#fff'}} /></a>:''}
+                            {props.webLink ? <a href={props.webLink} target='_blank'><BiWorld style={{fontSize: '2.7em', color: '#fff', marginLeft: '15px', marginRight: '15px'}}/></a>:''}
+                            {props.githubLink ? <a href={props.githubLink} target="_blank" ><AiFillGithub style={{fontSize: '2.5em', color: '#fff', marginLeft: '15px', marginRight: '15px'}} /></a>:''}
+                            {props.herokuLink ? <a href={props.herokuLink} target="_blank" style={{ marginTop: '3px', marginLeft: '15px', marginRight: '15px'}}><GrHeroku style={{fontSize: '2.3em', color: '#fff'}} /></a>:''}
                            
                             
                         </div>
