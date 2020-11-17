@@ -56,7 +56,7 @@ export default function Main() {
           <ProjectCard imageSource={P3Image} title="eQuipt" description="A great way for LARPs (Live Action Role Players) to keep stock of their inventory and even give some to other players. A project which uses the full MERN stack (Mongo, Express, React, Node)."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-          <ProjectCard imageSource={P1Image} title="Bamazon" description="This is a Command Line Interface app which will work a lot like a purchasing terminal deomonstrating the use of Node.js which is connected to MySQL database."/>
+          <ProjectCard imageSource={P1Image} title="Bamazon" description="This is a Command Line Interface app which will work a lot like a purchasing terminal deomonstrating the use of Node.js which is connected to a MySQL database."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
           <ProjectCard imageSource={P4Image} title="Word Guessing Game" description="See if you can guess the words. App demonstrating the use of pure javascript."/>
@@ -114,7 +114,7 @@ export default function Main() {
           <img style={{ width: '10vw', float: 'left', marginRight: '25px' }} src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/521/original/uwash.png" />
           <p style={{fontSize: '1.25em'}}>
           A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript,
-          JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS.</p>
+          JQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js and React.js.</p>
         </Grid>
         <hr />
         <Grid item sm={12} style={{marginLeft: '50px'}}>

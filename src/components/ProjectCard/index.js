@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import '../../components/ProjectCard/index.scss'
 import {BsLink} from 'react-icons/bs'
+import {AiFillGithub} from 'react-icons/ai'
 
 export default function ProjectCard(props) {
     const [active, setActive] = useState(false)
@@ -23,6 +24,9 @@ export default function ProjectCard(props) {
                         <div className="social-links">
                             <a href={props.projectLink} target="_blank">
                                 <BsLink style={{fontSize: '3em', color: '#fff'}} />
+                            </a>
+                            <a href={props.gitHubLink} target="_blank" style={{marginLeft: '10px'}}>
+                                <AiFillGithub style={{fontSize: '2.5em', color: '#fff'}} />
                             </a>
                         </div>
                     </p>
