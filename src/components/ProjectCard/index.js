@@ -1,7 +1,8 @@
 import React, {useState} from 'react'
 import '../../components/ProjectCard/index.scss'
-import {BsLink} from 'react-icons/bs'
+import {BiWorld} from 'react-icons/bi'
 import {AiFillGithub} from 'react-icons/ai'
+import {GrHeroku} from 'react-icons/gr'
 
 export default function ProjectCard(props) {
     const [active, setActive] = useState(false)
@@ -20,14 +21,13 @@ export default function ProjectCard(props) {
                     <div className='description'>{props.description}</div>
                 </div>
                 <div className="social">
-                    <p>Take a look:
+                    <p>Feel free to take a closer look:
                         <div className="social-links">
-                            <a href={props.projectLink} target="_blank">
-                                <BsLink style={{fontSize: '3em', color: '#fff'}} />
-                            </a>
-                            <a href={props.gitHubLink} target="_blank" style={{marginLeft: '10px'}}>
-                                <AiFillGithub style={{fontSize: '2.5em', color: '#fff'}} />
-                            </a>
+                            {props.webLink ? <a href={props.webLink} target='_blank'><BiWorld style={{fontSize: '2.7em', color: '#fff'}}/></a>:''}
+                            {props.githubLink ? <a href={props.githubLink} target="_blank" style={{marginLeft: '10px'}}><AiFillGithub style={{fontSize: '2.5em', color: '#fff'}} /></a>:''}
+                            {props.herokuLink ? <a href={props.herokuLink} target="_blank" style={{marginLeft: '12px', marginTop: '3px'}}><GrHeroku style={{fontSize: '2.3em', color: '#fff'}} /></a>:''}
+                           
+                            
                         </div>
                     </p>
                 </div>

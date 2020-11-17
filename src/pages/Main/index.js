@@ -47,10 +47,10 @@ export default function Main() {
       
       <Grid container spacing={2} justify="center">
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-          <ProjectCard imageSource={P6Image} projectLink="https://care-hawaii.herokuapp.com/"title="Care Hawaii" description="Created a website for Care Hawaii organization, that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers."/>
+          <ProjectCard imageSource={P6Image} herokuLink="https://care-hawaii.herokuapp.com/"title="Care Hawaii" description="Created a website for Care Hawaii organization, that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-          <ProjectCard imageSource={P2Image} title="Paju" description="Volunteered some time to help out a local business during the COVID-19 Pandemic. This is a full stack production website, that uses database triggers to enable real time UI changes. In addition, it enables chronological features using Cron Jobs."/>
+          <ProjectCard imageSource={P2Image} webLink="https://www.pajurestaurant.com" title="Paju" description="Volunteered some time to help out a local business during the COVID-19 Pandemic. This is a full stack production website, that uses database triggers to enable real time UI changes. In addition, it enables chronological features using Cron Jobs."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
           <ProjectCard imageSource={P3Image} title="eQuipt" description="A great way for LARPs (Live Action Role Players) to keep stock of their inventory and even give some to other players. A project which uses the full MERN stack (Mongo, Express, React, Node)."/>
@@ -59,7 +59,7 @@ export default function Main() {
           <ProjectCard imageSource={P1Image} title="Bamazon" description="This is a Command Line Interface app which will work a lot like a purchasing terminal deomonstrating the use of Node.js which is connected to a MySQL database."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
-          <ProjectCard imageSource={P4Image} title="Word Guessing Game" description="See if you can guess the words. App demonstrating the use of pure javascript."/>
+          <ProjectCard imageSource={P4Image} webLink="https://kima111.github.io/Word-Guess-Game/" githubLink="https://github.com/kima111/Word-Guess-Game" title="Word Guessing Game" description="See if you can guess the words. App demonstrating the use of pure javascript."/>
         </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{textAlign: 'center', margin: '15px', paddingLeft: '25px'}}>
           <ProjectCard imageSource={P5Image} title="MEANR" description="A full stack app to help developers build fully stacked applications quickly. This is built with (Mongo, Express, Axios, Node, and React)"/>
