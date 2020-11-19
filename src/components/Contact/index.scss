@@ -1,0 +1,8 @@
+.icon-shadow{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.icon-shadow:hover{
+    filter: drop-shadow(2.5px 2.5px 2.5px rgba(0,0,0,0.5));
+    transform: translateY(-5px);
+}

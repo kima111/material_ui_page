@@ -14,22 +14,24 @@ import { Container, Grid } from '@material-ui/core'
 import Test from '../../assets/images/test.png'
 import '../Main/index.scss'
 import {FadeOnUpChar, FadeOnUp} from 'nehoa'
+import ContactIcons from '../../components/Contact'
 
 
 export default function Main() {
 
   return (
     <>
-      <div>
+      <div>  
         <BGVideo className='fade-in' />
         <Ksvg style={{ position: 'absolute', zIndex: '-5', top: '0', left: '0', width: '100vw' }} />
+ 
         <img src={Test} style={{ position: 'absolute', zIndex: '-5', top: '0', left: '0', width: '100vw' }} />
 
 
       </div>
       <div style={{ marginTop: '34vw' }}>
 
-
+        <Grid container spacing={1}>
         <Grid sm={8} xs={11} style={{ borderStyle: 'solid', borderWidth: '2px', borderColor: '#dddddd', borderRadius: '5px', margin: '20px', padding: '15px' }}>
         <FadeOnUp duration='1s'>
           <p style={{fontSize: '2em'}}>Hello, and welcome to my site</p>
@@ -42,6 +44,10 @@ export default function Main() {
             or in other words, the entire stack.
             </p>
         </FadeOnUp>
+        </Grid>
+        <Grid sm={3} xs={12}>
+        <ContactIcons></ContactIcons>
+        </Grid>
         </Grid>
         <p style={{fontSize: '2em', marginLeft: '30px'}}>Of course, here are some of my best projects:</p>
 
