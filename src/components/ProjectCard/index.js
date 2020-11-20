@@ -22,11 +22,11 @@ export default function ProjectCard(props) {
                 </div>
                 <div className="social">
                     <p>Feel free to take a closer look:
-                        <div className="social-links">
+                        <span className="social-links">
                             {props.webLink ? <a href={props.webLink} target='_blank' rel="noopener noreferrer" style={{fontSize: '2.7em', color: '#fff', marginLeft: '15px', marginRight: '15px'}}><BiWorld/></a>:''}
                             {props.githubLink ? <a href={props.githubLink} target="_blank"  rel="noopener noreferrer" style={{fontSize: '2.5em', color: '#fff', marginLeft: '15px', marginRight: '15px'}} ><AiFillGithub /></a>:''}
                             {props.herokuLink ? <a href={props.herokuLink} target="_blank" rel="noopener noreferrer" style={{ marginTop: '3px', marginLeft: '15px', marginRight: '15px', fontSize: '2.3em', color: '#fff'}}><GrHeroku /></a>:''}
-                        </div>
+                        </span>
                     </p>
                 </div>
             </div>
