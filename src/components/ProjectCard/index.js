@@ -8,10 +8,10 @@ export default function ProjectCard(props) {
     const [active, setActive] = useState(false)
  
     return (
-        
+            <>
             <div onClick={()=>setActive(!active)}  className={active ? 'card active' : 'card'}>
                 <div className='image-box'>
-                    <img className='image-profile' src={props.imageSource} />
+                    <img className='image-profile' alt={props.altSource} src={props.imageSource} />
                 </div>
                 <div className='bottom'>
                     <div className={active ? 'btn-close':'btn'}>
@@ -23,16 +23,16 @@ export default function ProjectCard(props) {
                 <div className="social">
                     <p>Feel free to take a closer look:
                         <div className="social-links">
-                            {props.webLink ? <a href={props.webLink} target='_blank'><BiWorld style={{fontSize: '2.7em', color: '#fff', marginLeft: '15px', marginRight: '15px'}}/></a>:''}
-                            {props.githubLink ? <a href={props.githubLink} target="_blank" ><AiFillGithub style={{fontSize: '2.5em', color: '#fff', marginLeft: '15px', marginRight: '15px'}} /></a>:''}
-                            {props.herokuLink ? <a href={props.herokuLink} target="_blank" style={{ marginTop: '3px', marginLeft: '15px', marginRight: '15px'}}><GrHeroku style={{fontSize: '2.3em', color: '#fff'}} /></a>:''}
+                            {props.webLink ? <a href={props.webLink} target='_blank' rel="noopener noreferrer"><BiWorld style={{fontSize: '2.7em', color: '#fff', marginLeft: '15px', marginRight: '15px'}}/></a>:''}
+                            {props.githubLink ? <a href={props.githubLink} target="_blank"  rel="noopener noreferrer"><AiFillGithub style={{fontSize: '2.5em', color: '#fff', marginLeft: '15px', marginRight: '15px'}} /></a>:''}
+                            {props.herokuLink ? <a href={props.herokuLink} target="_blank" rel="noopener noreferrer" style={{ marginTop: '3px', marginLeft: '15px', marginRight: '15px'}}><GrHeroku style={{fontSize: '2.3em', color: '#fff'}} /></a>:''}
                            
                             
                         </div>
                     </p>
                 </div>
             </div>
-
+            </>
     )
 }
     
