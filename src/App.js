@@ -5,6 +5,7 @@ import Layout from '../src/components/Layout'
 
 function App() {
   return (
+    <div>
     <Router>
       <Layout>
       <Switch>
@@ -12,7 +13,7 @@ function App() {
       </Switch>
       </Layout>
     </Router>
-    
+    </div>
   );
 }
 

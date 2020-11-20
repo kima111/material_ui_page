@@ -19,7 +19,7 @@ import ContactIcons from '../../components/Contact'
 export default function Main() {
 
   return (
-    <>
+    <div>
       <div>
         <BGVideo className='fade-in' />
         <Ksvg style={{ position: 'absolute', zIndex: '-5', top: '0', left: '0', width: '100vw' }} />
@@ -28,11 +28,11 @@ export default function Main() {
       <div style={{ marginTop: '34vw' }}>
         <Grid container spacing={1}>
           <Grid item sm={8} xs={11} style={{ borderStyle: 'solid', borderWidth: '2px', borderColor: '#dddddd', borderRadius: '5px', margin: '20px', padding: '15px' }}>
-            <FadeOnUp duration='1s'>
-              <p style={{ fontSize: '2em' }}>Hello, and welcome to my site</p>
+            <FadeOnUp duration='1s' style={{ fontSize: '2em' }}>
+              <p >Hello, and welcome to my site</p>
             </FadeOnUp>
-            <FadeOnUp duration='1.5s'>
-              <p style={{ fontSize: '1.5em' }}>
+            <FadeOnUp duration='1.5s' style={{ fontSize: '1.5em' }}>
+              <p>
                 I am a Full Stack Web Developer in the Seattle area who enjoys working both on front end design, and back end architecture. I have come to a great appreciation for all the aspects
                 that go into designing and developing a website. Whether it's making sure the user has a wonderful experience, or implementing effective algorithms, to optimizing database architecures,
                 I believe the greatest products merge both the arts and sciences. This is why I have invested myself into pursuing and acclimating to greater heights within both fields,
@@ -158,6 +158,6 @@ export default function Main() {
           </Grid>
         </Grid>
       </div>
-    </>
+    </div>
   )
 }
