@@ -40,7 +40,7 @@ export default function Main() {
             </p>
             </FadeOnUp>
           </Grid>
-          <Grid sm={3} xs={12}>
+          <Grid item sm={3} xs={12}>
             <ContactIcons></ContactIcons>
           </Grid>
         </Grid>
