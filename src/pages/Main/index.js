@@ -76,7 +76,7 @@ export default function Main() {
         <br />
         <br />
 
-        <Grid sm={12} style={{ margin: '20px', padding: '15px', backgroundColor: '#ffffff' }}>
+
 
           <p style={{ fontSize: '2em' }}>Tech I truly enjoy and <img alt="heart logo" style={{width: '28px', marginTop: '-6px'}} src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png"/> working with:</p>
           <Grid container spacing={2}>
@@ -123,7 +123,7 @@ export default function Main() {
               </Icon>
             </Grid>
           </Grid>
-          </Grid>
+  
       <hr />
         <br />
         <br />
