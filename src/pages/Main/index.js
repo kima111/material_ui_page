@@ -1,6 +1,7 @@
 import React from 'react'
 import BGVideo from '../../components/BackgroundVideo'
-import { ReactComponent as Ksvg } from '../../assets/images/Kim.svg'
+// import { ReactComponent as Ksvg } from '../../assets/images/Kim.svg'
+import logoImage from '../../assets/images/Logo.png'
 import P1Image from '../../assets/images/Projects/bamazon.PNG'
 import P2Image from '../../assets/images/Projects/Paju.PNG'
 import P3Image from '../../assets/images/Projects/eQuipt.PNG'
@@ -10,10 +11,11 @@ import P6Image from '../../assets/images/Projects/Care_Hawaii.PNG'
 import ProjectCard from '../../components/ProjectCard'
 import Icon from '../../components/TechIcon'
 import { Grid } from '@material-ui/core'
-import Test from '../../assets/images/test.png'
+import Test from '../../assets/images/profile.png'
 import '../Main/index.scss'
 import { FadeOnUp } from 'nehoa'
-import ContactIcons from '../../components/Contact'
+// import ContactIcons from '../../components/Contact'
+import {AiOutlineMail, AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 
 
 export default function Main() {
@@ -21,12 +23,21 @@ export default function Main() {
   return (
     <div>
       <div>
-        <BGVideo className='fade-in' />
-        <Ksvg style={{ position: 'absolute', zIndex: '-5', top: '0', left: '0', width: '100vw' }} />
-        <img alt="background" src={Test} style={{ position: 'absolute', zIndex: '-5', top: '0', left: '0', width: '100vw' }} />
+        <BGVideo className='fade-in videoBG'>
+        <img alt="profile" src={Test} className="profile-image" />
+        <img alt="logo" src={logoImage} className="logo" />
+        <p className="contact-items">Contact Me</p>
+            <a href="mailto:kima111@gmail.com" className="contact-item1"><AiOutlineMail/></a>
+            <a href="https://github.com/kima111" className="contact-item2"><AiFillGithub /></a>
+            <a href="https://www.linkedin.com/in/abraham-kim-481a0961/" className="contact-item3"><AiFillLinkedin /></a>
+        {/* <Ksvg className="logo" /> */}
+        {/* <img alt="background" src={Test} style={{ position: 'absolute', zIndex: '-5', top: '0', left: '0', width: '100vw' }} /> */}
+        {/* <div className="contact-items"><ContactIcons/></div> */}
+        </BGVideo>
       </div>
-      <div style={{ marginTop: '34vw' }}>
-        <Grid container spacing={1}>
+      <br />
+   
+        <Grid container spacing={1} style={{marginTop: '38vw'}}>
           <Grid item sm={8} xs={11} style={{ borderStyle: 'solid', borderWidth: '2px', borderColor: '#dddddd', borderRadius: '5px', margin: '20px', padding: '15px' }}>
             <FadeOnUp duration='1s' style={{ fontSize: '2em' }}>
               <p >Hello, and welcome to my site</p>
@@ -41,7 +52,7 @@ export default function Main() {
             </FadeOnUp>
           </Grid>
           <Grid item sm={3} xs={12}>
-            <ContactIcons></ContactIcons>
+      
           </Grid>
         </Grid>
         <p style={{ fontSize: '2em', marginLeft: '30px' }}>Of course, here are some of my best projects:</p>
@@ -157,7 +168,7 @@ export default function Main() {
             property relationships in materials for engineering applications.</p>
           </Grid>
         </Grid>
-      </div>
+  
     </div>
   )
 }
