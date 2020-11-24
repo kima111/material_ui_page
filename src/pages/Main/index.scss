@@ -5,7 +5,33 @@
 }
 p{
     font-family: 'Abel', sans-serif;
+}
+.education{
+    text-align: left;
+}
+.education-icon{
+    margin-left: 50px;
+}
+.education-icon img{
+    width: 10vw; 
+    float: left; 
+    margin-right: 25px;
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+.education-icon img:hover{
+    filter: drop-shadow(2.5px 2.5px 2.5px rgba(0,0,0,0.5));
+    transform: translateY(-5px);
 
+}
+.education-icon-shadow{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.education-icon-shadow:hover{
+    filter: drop-shadow(2.5px 2.5px 2.5px rgba(0,0,0,0.5));
+    transform: translateY(-5px);
 }
 
 .fade-in {
@@ -88,7 +114,6 @@ p{
     cursor: pointer;
     color: #555;
 }
-
 .contact-item1:hover{
     filter: drop-shadow(2.5px 2.5px 2.5px rgba(0,0,0,0.5));
     transform: translateY(-5px);
@@ -104,21 +129,7 @@ p{
     transform: translateY(-5px);
     color: #555;
 }
-// @media only screen and (max-width: 600px) {
 
-//     .contact-item1{
-//       font-size: 2.5rem;
-    
-//     }
-//     .contact-item2{
-//       font-size: 2.5rem;
-
-//       }
-//   .contact-item3{
-//       font-size: 2.5rem;
-  
-//   }
-// }
 @media only screen and (min-width: 1600px) {
 
     .contact-item1{
@@ -158,24 +169,39 @@ p{
     
   }
 @media only screen and (max-width: 550px) {
-
     .contact-item1{
-      font-size: 3.5rem;
-      left: 5vw;
-      top: 45vw;
+        font-size: 3.5rem;
+        left: 5vw;
+        top: 45vw;
     }
     .contact-item2{
-      font-size: 3.5rem;
-      left: 35vw;
-      top: 45vw;
-      }
-  .contact-item3{
-      font-size: 3.5rem;
-      left: 63vw;
-      top: 45vw;
-  }
-    
-  }
+        font-size: 3.5rem;
+        left: 35vw;
+        top: 45vw;
+    }
+    .contact-item3{
+        font-size: 3.5rem;
+        left: 63vw;
+        top: 45vw;
+    }
+    .education-icon{
+        text-align: center;
+        display: block;
+        margin: 0 auto;
+    }
+    .education-icon img{
+        width: 40vw; 
+        float: none;
+        margin-bottom: 10px;
+  
+         
+    }   
+    .education{
+        text-align: center;
+        clear: both;
+    }
+
+}
 @media only screen and (max-width: 450px) {
 
   .contact-item1{
