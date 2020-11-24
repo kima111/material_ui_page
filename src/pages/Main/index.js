@@ -36,7 +36,7 @@ export default function Main() {
         </BGVideo>
       </div>
       <br />
-   
+    
         <Grid container spacing={1} style={{marginTop: '38vw'}}>
           <Grid item sm={8} xs={11} style={{ borderStyle: 'solid', borderWidth: '2px', borderColor: '#dddddd', borderRadius: '5px', margin: '20px', padding: '15px' }}>
             <FadeOnUp duration='1s' style={{ fontSize: '2em' }}>

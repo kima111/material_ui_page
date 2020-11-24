@@ -59,7 +59,7 @@ p{
     font-size: 4rem;
     padding: 15px;
     top: 52vw;
-    left: 75vw;
+    left: 74.5vw;
     width: 15vw;
     transition: 0.5s ease;
     cursor: pointer;
@@ -70,7 +70,7 @@ p{
     font-size: 4rem;
     padding: 15px;
     top: 52vw;
-    left: 80vw;
+    left: 79.5vw;
     width: 15vw;
     transition: 0.5s ease;
     cursor: pointer;
@@ -82,7 +82,7 @@ p{
     font-size: 4rem;
     padding: 15px;
     top: 52vw;
-    left: 85vw;
+    left: 84.5vw;
     width: 15vw;
     transition: 0.5s ease;
     cursor: pointer;
@@ -119,6 +119,25 @@ p{
   
 //   }
 // }
+@media only screen and (min-width: 1600px) {
+
+    .contact-item1{
+      font-size: 4rem;
+      left: 75vw;
+      top: 52vw;
+    }
+    .contact-item2{
+      font-size: 4rem;
+      left: 80vw;
+      top: 52vw;
+      }
+  .contact-item3{
+      font-size: 4rem;
+      left: 85vw;
+      top: 52vw;
+  }
+    
+  }
 @media only screen and (max-width: 1280px) {
 
     .contact-item1{
