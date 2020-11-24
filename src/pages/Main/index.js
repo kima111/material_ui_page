@@ -37,8 +37,8 @@ export default function Main() {
         </BGVideo>
       </div>
       <br />
-    
-        <Grid container spacing={1} style={{marginTop: '38vw'}}>
+      <div className="mainContainer">
+        <Grid container spacing={1} >
           <Grid item sm={8} xs={11} style={{ borderStyle: 'solid', borderWidth: '2px', borderColor: '#dddddd', borderRadius: '5px', margin: '20px', padding: '15px' }}>
             <FadeOnUp duration='1s' style={{ fontSize: '2em' }}>
               <p >Hello, and welcome to my site</p>
@@ -177,7 +177,7 @@ export default function Main() {
             property relationships in materials for engineering applications.</p>
           </Grid>
         </Grid>
-  
+      </div>
     </div>
   )
 }

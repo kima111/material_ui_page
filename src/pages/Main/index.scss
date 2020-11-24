@@ -25,14 +25,6 @@ p{
     transform: translateY(-5px);
 
 }
-.education-icon-shadow{
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-.education-icon-shadow:hover{
-    filter: drop-shadow(2.5px 2.5px 2.5px rgba(0,0,0,0.5));
-    transform: translateY(-5px);
-}
 
 .fade-in {
     animation: fadeIn ease 2s;
@@ -82,10 +74,10 @@ p{
 }
 .contact-item-title{
     position: absolute;
-    font-size: 1.75rem;
+    font-size: 1.5rem;
     padding: 15px;
-    top: 51vw;
-    left: 76vw;
+    top: 51.5vw;
+    left: 79vw;
     width: 15vw;
     transition: 0.5s ease;
     cursor: pointer;
@@ -96,7 +88,7 @@ p{
     font-size: 4rem;
     padding: 15px;
     top: 52vw;
-    left: 74.5vw;
+    left: 78vw;
     width: 15vw;
     transition: 0.5s ease;
     cursor: pointer;
@@ -107,7 +99,7 @@ p{
     font-size: 4rem;
     padding: 15px;
     top: 52vw;
-    left: 79.5vw;
+    left: 81vw;
     width: 15vw;
     transition: 0.5s ease;
     cursor: pointer;
@@ -119,7 +111,7 @@ p{
     font-size: 4rem;
     padding: 15px;
     top: 52vw;
-    left: 84.5vw;
+    left: 84vw;
     width: 15vw;
     transition: 0.5s ease;
     cursor: pointer;
@@ -140,17 +132,19 @@ p{
     transform: translateY(-5px);
     color: #555;
 }
-
-@media only screen and (min-width: 1600px) {
+.mainContainer{
+    margin-top: 40vw;
+}
+@media only screen and (max-width: 2100px) {
 
     .contact-item1{
       font-size: 4rem;
-      left: 75vw;
+      left: 70vw;
       top: 52vw;
     }
     .contact-item2{
       font-size: 4rem;
-      left: 80vw;
+      left: 78vw;
       top: 52vw;
       }
   .contact-item3{
@@ -158,28 +152,129 @@ p{
       left: 85vw;
       top: 52vw;
   }
+  .contact-item-title{
+    font-size: 1.3rem;
+    left: 72vw;
+    width: 500px;
+    top: 51vw;
+}
+.mainContainer{
+    margin-top: 40vw;
+}
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .contact-item1{
+      font-size: 4rem;
+      left: 70vw;
+      top: 52vw;
+    }
+    .contact-item2{
+      font-size: 4rem;
+      left: 78vw;
+      top: 52vw;
+      }
+  .contact-item3{
+      font-size: 4rem;
+      left: 85vw;
+      top: 52vw;
+  }
+  .contact-item-title{
+    font-size: 1.3rem;
+    left: 72vw;
+    width: 500px;
+    top: 51vw;
+}
+.mainContainer{
+    margin-top: 600px;
+}
+}
+@media only screen and (max-width: 1200px) {
+
+    .contact-item1{
+      font-size: 4rem;
+      left: 70vw;
+      top: 52vw;
+    }
+    .contact-item2{
+      font-size: 4rem;
+      left: 78vw;
+      top: 52vw;
+      }
+  .contact-item3{
+      font-size: 4rem;
+      left: 85vw;
+      top: 52vw;
+  }
+  .contact-item-title{
+    font-size: 1.3rem;
+    left: 72vw;
+    width: 500px;
+    top: 51vw;
+}
+.mainContainer{
+    margin-top: 450px;
+}
     
   }
-@media only screen and (max-width: 1280px) {
+  @media only screen and (max-width: 992px) {
 
     .contact-item1{
       font-size: 3rem;
       left: 5vw;
-      top: 40vw;
+      top: 45vw;
     }
     .contact-item2{
       font-size: 3rem;
       left: 35vw;
-      top: 40vw;
+      top: 45vw;
       }
   .contact-item3{
       font-size: 3rem;
       left: 63vw;
-      top: 40vw;
+      top: 45vw;
   }
+  .contact-item-title{
+    font-size: 1.3rem;
+    left: 1vw;
+    width: 500px;
+    top: 43vw;
+}
+.mainContainer{
+    margin-top: 450px;
+}
     
   }
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 768px) {
+
+    .contact-item1{
+      font-size: 3rem;
+      left: 5vw;
+      top: 45vw;
+    }
+    .contact-item2{
+      font-size: 3rem;
+      left: 35vw;
+      top: 45vw;
+      }
+  .contact-item3{
+      font-size: 3rem;
+      left: 63vw;
+      top: 45vw;
+  }
+  .contact-item-title{
+    font-size: 1.3rem;
+    left: 1vw;
+    width: 500px;
+    top: 43vw;
+}
+.mainContainer{
+    margin-top: 350px;
+}
+    
+  }
+@media only screen and (max-width: 600px) {
     .contact-item1{
         font-size: 3.5rem;
         left: 5vw;
@@ -204,17 +299,29 @@ p{
         width: 40vw; 
         float: none;
         margin-bottom: 10px;
-  
-         
     }   
     .education{
         text-align: center;
         clear: both;
     }
+    .contact-item-title{
+        font-size: 1.3rem;
+        left: 1vw;
+        width: 500px;
+        top: 43vw;
+   }
+    .mainContainer{
+        margin-top: 300px;
+    }
 
 }
 @media only screen and (max-width: 450px) {
-
+    .contact-item-title{
+        font-size: 1.2rem;
+        left: 1vw;
+        width: 500px;
+        top: 45vw;
+   }
   .contact-item1{
     font-size: 3.5rem;
     left: 5vw;
@@ -229,6 +336,9 @@ p{
     font-size: 3.5rem;
     left: 63vw;
     top: 47vw;
+}
+.mainContainer{
+    margin-top: 200px;
 }
   
 }
