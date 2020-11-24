@@ -27,7 +27,7 @@ export default function Main() {
         <BGVideo className='fade-in videoBG'>
         <img alt="profile" src={Test} className="profile-image" />
         <img alt="logo" src={logoImage} className="logo" />
-        <p className="contact-items">Contact Me</p>
+        <p className="contact-item-title">Feel free to connect:</p>
             <a href="mailto:kima111@gmail.com" className="contact-item1"><AiOutlineMail/></a>
             <a href="https://github.com/kima111" className="contact-item2"><AiFillGithub /></a>
             <a href="https://www.linkedin.com/in/abraham-kim-481a0961/" className="contact-item3"><AiFillLinkedin /></a>

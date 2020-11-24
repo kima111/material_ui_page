@@ -80,6 +80,17 @@ p{
     left: 0;
     width: 40vw;
 }
+.contact-item-title{
+    position: absolute;
+    font-size: 1.75rem;
+    padding: 15px;
+    top: 51vw;
+    left: 76vw;
+    width: 15vw;
+    transition: 0.5s ease;
+    cursor: pointer;
+    color: #555;
+}
 .contact-item1{
     position: absolute;
     font-size: 4rem;
