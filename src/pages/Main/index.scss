@@ -72,6 +72,8 @@ p{
     left: 0;
     width: 40vw;
 }
+
+//contact information
 .contact-item-title{
     position: absolute;
     font-size: 1.5rem;
@@ -105,7 +107,6 @@ p{
     cursor: pointer;
     color: #555;
 }
-
 .contact-item3{
     position: absolute;
     font-size: 4rem;
@@ -136,7 +137,6 @@ p{
     margin-top: 40vw;
 }
 @media only screen and (max-width: 2100px) {
-
     .contact-item1{
       font-size: 4rem;
       left: 70vw;
@@ -147,20 +147,20 @@ p{
       left: 78vw;
       top: 52vw;
       }
-  .contact-item3{
+    .contact-item3{
       font-size: 4rem;
       left: 85vw;
       top: 52vw;
-  }
-  .contact-item-title{
-    font-size: 1.3rem;
-    left: 72vw;
-    width: 500px;
-    top: 51vw;
-}
-.mainContainer{
-    margin-top: 40vw;
-}
+    }
+    .contact-item-title{
+      font-size: 1.3rem;
+      left: 72vw;
+      width: 500px;
+      top: 51vw;
+    }
+    .mainContainer{
+        margin-top: 40vw;
+    }
 }
 
 @media only screen and (max-width: 1600px) {
@@ -175,17 +175,17 @@ p{
       left: 78vw;
       top: 52vw;
       }
-  .contact-item3{
+    .contact-item3{
       font-size: 4rem;
       left: 85vw;
       top: 52vw;
-  }
-  .contact-item-title{
-    font-size: 1.3rem;
-    left: 72vw;
-    width: 500px;
-    top: 51vw;
-}
+    }
+    .contact-item-title{
+      font-size: 1.3rem;
+      left: 72vw;
+      width: 500px;
+      top: 51vw;
+    }
 .mainContainer{
     margin-top: 600px;
 }
