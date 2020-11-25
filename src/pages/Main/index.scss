@@ -1,7 +1,3 @@
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-}
 #title{
     position: absolute;
  
@@ -311,7 +307,7 @@ p{
     .contact-item-title{
         font-size: 1.3rem;
         left: 1vw;
-        width: 500px;
+        width: 100%;
         top: 43vw;
    }
     .mainContainer{
@@ -323,7 +319,7 @@ p{
     .contact-item-title{
         font-size: 1.2rem;
         left: 1vw;
-        width: 500px;
+        width: 100%;
         top: 45vw;
    }
   .contact-item1{

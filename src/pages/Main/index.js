@@ -57,8 +57,6 @@ export default function Main() {
           </Grid>
         </Grid>
         <p style={{ fontSize: '2em', marginLeft: '50px' }}>Of course, here are some of my best projects:</p>
-
-
         <Grid container spacing={2} justify="center">
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="Care Hawaii Project Image" imageSource={P6Image} herokuLink="https://care-hawaii.herokuapp.com/" title="Care Hawaii" description="Created a website for Care Hawaii. Care Hawaii is an organization that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers." />
@@ -78,7 +76,6 @@ export default function Main() {
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="MEANR Project Image" imageSource={P5Image} githubLink="https://github.com/kima111/MEANR" herokuLink="https://meanr.herokuapp.com/" title="MEANR" description="A full stack app to help developers build fully stacked applications quickly. This is built with (Mongo, Express, Axios, Node, and React)" />
           </Grid>
-
         </Grid>
         <hr />
         <br />
