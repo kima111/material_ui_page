@@ -6,8 +6,12 @@
 p{
     font-family: 'Abel', sans-serif;
 }
+.profile-description{
+    font-size: 1.5em;
+}
 .education{
     text-align: left;
+    font-size: 1.25em;
 }
 .education-icon{
     margin-left: 50px;
@@ -312,6 +316,12 @@ p{
    }
     .mainContainer{
         margin-top: 300px;
+    }
+    .profile-description{
+        font-size: 1em;
+    }
+    .education{
+        font-size: 1em;
     }
 
 }

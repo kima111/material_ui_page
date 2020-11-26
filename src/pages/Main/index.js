@@ -43,8 +43,8 @@ export default function Main() {
             <FadeOnUp duration='1s' style={{ fontSize: '2em' }}>
               <p >Hello, and welcome to my site</p>
             </FadeOnUp>
-            <FadeOnUp duration='1.5s' style={{ fontSize: '1.5em' }}>
-              <p>
+            <FadeOnUp duration='1.5s'>
+              <p className="profile-description">
                 I am a Full Stack Web Developer in the Seattle area who enjoys working both on front end design, and back end architecture. I have come to a great appreciation for all the aspects
                 that go into designing and developing a website. Whether it's making sure the user has a wonderful experience, or implementing effective algorithms, to optimizing database architecures,
                 I believe the greatest products merge both the arts and sciences. This is why I have invested myself into pursuing and acclimating to greater heights within both fields,
@@ -133,7 +133,7 @@ export default function Main() {
             <div className="education-icon">
               <img link="https://bootcamp.uw.edu/coding/" alt="University of Washington Continuing Education Logo" src="https://coursereport-s3-production.global.ssl.fastly.net/uploads/school/logo/521/original/uwash.png" />
             </div>
-            <p className="education" style={{ fontSize: '1.25em'}}>
+            <p className="education">
               <b>University of Washington, Full Stack Development</b><br />A 24-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript,
           JQuery, Bootstrap, Firebase, Node.js, MySQL, MongoDB, Express, Handelbars.js and React.js.</p>
           </Grid>
@@ -142,7 +142,7 @@ export default function Main() {
             <div className="education-icon">
               <img link="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-routing-switching.html" alt="Cisco Certified Network Professional Logo" src="https://computingforgeeks.com/wp-content/uploads/2019/07/best-ccnp-rs-books.jpg" />
             </div>
-            <p className="education" style={{ fontSize: '1.25em' }}>
+            <p className="education">
               <b>Cisco Certified Network Professional, Routing and Switching</b><br />
           Cisco Certified Network Professional (CCNP) Routing and Switching certification validates the ability to plan,
           implement, verify and troubleshoot local and wide-area enterprise networks and work collaboratively with
@@ -154,7 +154,7 @@ export default function Main() {
             <div className="education-icon">
               <img link="https://docs.microsoft.com/en-us/learn/certifications/" alt="Microsoft IT Professional Logo" src="https://www.pngitem.com/pimgs/m/210-2108492_mcitp-logo-microsoft-certified-it-professional-hd-png.png" />
             </div>
-            <p className="education" style={{ fontSize: '1.25em' }}>
+            <p className="education">
               <b>Microsoft Certified I.T. Professional, Server Administrator</b><br />
           The MCITP certification builds on a combination of MCTS (Microsoft Certified Technology Specialist)
           prerequisites. A Microsoft Certified IT Professional (MCITP) certification proves the comprehensive set of skills
@@ -168,7 +168,7 @@ export default function Main() {
             <div className="education-icon">
             <img link="https://mse.washington.edu/" alt="University of Washington Materials Science and Engineering Logo" src={mseImage}/>
             </div>
-            <p className="education" style={{ fontSize: '1.25em' }}>
+            <p className="education">
               <b>University of Washington, Material Science & Engineering</b><br />
             Materials Science and Engineering is an interdisciplinary field that addresses the structure, processing, and
             property relationships in materials for engineering applications.</p>
