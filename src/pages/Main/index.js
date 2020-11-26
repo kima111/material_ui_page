@@ -40,8 +40,8 @@ export default function Main() {
       <div className="mainContainer">
         <Grid container spacing={1} >
           <Grid item sm={8} xs={11} style={{ borderStyle: 'solid', borderWidth: '2px', borderColor: '#dddddd', borderRadius: '5px', margin: '20px', padding: '15px' }}>
-            <FadeOnUp duration='1s' style={{ fontSize: '2em' }}>
-              <p >Hello, and welcome to my site</p>
+            <FadeOnUp duration='1s'>
+              <p className="paragraph-header">Hello, and welcome to my site</p>
             </FadeOnUp>
             <FadeOnUp duration='1.5s'>
               <p className="profile-description">
@@ -56,7 +56,7 @@ export default function Main() {
       
           </Grid>
         </Grid>
-        <p style={{ fontSize: '2em', marginLeft: '50px' }}>Of course, here are some of my best projects:</p>
+        <p className="section-header">Of course, here are some of my best projects:</p>
         <Grid container spacing={2} justify="center">
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="Care Hawaii Project Image" imageSource={P6Image} herokuLink="https://care-hawaii.herokuapp.com/" title="Care Hawaii" description="Created a website for Care Hawaii. Care Hawaii is an organization that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers." />
@@ -80,7 +80,7 @@ export default function Main() {
         <hr />
         <br />
         <br />
-        <p style={{ fontSize: '2em', marginLeft: '50px' }}>Tech I truly enjoy and <img alt="heart logo" style={{ width: '28px', marginTop: '-6px' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png" /> working with:</p>
+        <p className="section-header">Tech I truly enjoy and <img alt="heart logo" style={{ width: '28px', marginTop: '-6px' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png" /> working with:</p>
         <Grid container spacing={2}>
           <Grid item sm={3} style={{ textAlign: 'center' }}>
             <Icon link="https://reactjs.org/">
@@ -127,7 +127,7 @@ export default function Main() {
         <hr />
         <br />
         <br />
-        <p style={{ fontSize: '2em', marginLeft: '50px'}}>Education & Certifications:</p>
+        <p className="section-header">Education & Certifications:</p>
         <Grid container spacing={2}>
           <Grid item sm={12}>
             <div className="education-icon">

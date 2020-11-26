@@ -27,7 +27,13 @@ p{
 .education-icon img:hover{
     filter: drop-shadow(2.5px 2.5px 2.5px rgba(0,0,0,0.5));
     transform: translateY(-5px);
-
+}
+.paragraph-header{
+    font-size: 2em;
+}
+.section-header{
+    margin-left: 50px;
+    font-size: 2em;
 }
 
 .fade-in {
@@ -322,6 +328,13 @@ p{
     }
     .education{
         font-size: 1em;
+    }
+    .paragraph-header{
+        font-size: 1.35em;
+    }
+    .section-header{
+        font-size: 1.15em;
+        margin-left: 25px;
     }
 
 }
