@@ -82,42 +82,42 @@ export default function Main() {
         <br />
         <p className="section-header">Tech I truly enjoy and <img alt="heart logo" style={{ width: '28px', marginTop: '-6px' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png" /> working with:</p>
         <Grid container spacing={2}>
-          <Grid item sm={3} style={{ textAlign: 'center' }}>
+          <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://reactjs.org/">
               <img alt="React JS Logo" style={{ width: '18vw' }} src="https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/2020-05/react-js-blog-header.png?itok=VbfDeSgJ" />
             </Icon>
           </Grid>
-          <Grid item sm={3} style={{ textAlign: 'center' }}>
+          <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://www.mongodb.com/">
               <img alt="Mongo DB Logo" style={{ width: '10vw' }} src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png" />
             </Icon>
           </Grid>
-          <Grid item sm={3} style={{ textAlign: 'center' }}>
+          <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://github.com/">
               <img alt="Github Logo" style={{ width: '20vw', marginTop: '2vw' }} src="https://s19386.pcdn.co/wp-content/uploads/2017/10/github-logo-1.png" />
             </Icon>
           </Grid>
-          <Grid item sm={3} style={{ textAlign: 'center' }}>
+          <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://www.javascript.com/">
               <img alt="Javascript Logo" style={{ width: '8vw', marginTop: '2vw' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" />
             </Icon>
           </Grid>
-          <Grid item sm={3} style={{ textAlign: 'center' }}>
+          <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://sass-lang.com/">
               <img alt="SASS Logo" style={{ width: '14vw', marginTop: '2vw' }} src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQp0qS4amN6Pas2IyhGrnl8LLrMX19yNzW9Lg&usqp=CAU" />
             </Icon>
           </Grid>
-          <Grid item sm={3} style={{ textAlign: 'center' }}>
+          <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://nodejs.org/en/">
               <img alt="Node JS Logo" style={{ width: '14vw', marginTop: '2vw' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/1200px-Node.js_logo.svg.png" />
             </Icon>
           </Grid>
-          <Grid item sm={3} style={{ textAlign: 'center' }}>
+          <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://www.npmjs.com/">
               <img alt="NPM Logo" style={{ width: '14vw', marginTop: '2vw' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/1200px-Npm-logo.svg.png" />
             </Icon>
           </Grid>
-          <Grid item sm={3} style={{ textAlign: 'center' }}>
+          <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://code.visualstudio.com/">
               <img alt="Visual Code Logo" style={{ width: '8vw', marginTop: '2vw' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/1200px-Visual_Studio_Code_1.35_icon.svg.png" />
             </Icon>
