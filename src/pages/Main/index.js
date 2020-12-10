@@ -1,18 +1,20 @@
-import React from 'react'
+import React, {lazy} from 'react'
 import BGVideo from '../../components/BackgroundVideo'
 // import { ReactComponent as Ksvg } from '../../assets/images/Kim.svg'
 import logoImage from '../../assets/images/Logo.png'
-import P1Image from '../../assets/images/Projects/bamazon.PNG'
-import P2Image from '../../assets/images/Projects/Paju.PNG'
-import P3Image from '../../assets/images/Projects/eQuipt.PNG'
-import P4Image from '../../assets/images/Projects/WordGuessingGamePic.PNG'
-import P5Image from '../../assets/images/Projects/MEANR.PNG'
+import P1Image from '../../assets/images/Optimized/Projects/bamazon.png'
+import P2Image from '../../assets/images/Optimized/Projects/Paju.jpg'
+import P3Image from '../../assets/images/Optimized/Projects/eQuipt.jpg'
+import P4Image from '../../assets/images/Optimized/Projects/WordGuessingGamePic.png'
+import P5Image from '../../assets/images/Optimized/Projects/MEANR.jpg'
 import P6Image from '../../assets/images/Optimized/Projects/Care_Hawaii.jpg'
+import L1Image from '../../assets/images/Optimized/Logos/react.png'
+import L2Image from '../../assets/images/Optimized/Logos/JS.png'
 import mseImage from '../../assets/images/uw_mse.png'
 import ProjectCard from '../../components/ProjectCard'
 import Icon from '../../components/TechIcon'
 import { Grid } from '@material-ui/core'
-import Test from '../../assets/images/profile.png'
+import Test from '../../assets/images/Optimized/Projects/profile.png'
 import '../Main/index.scss'
 import { FadeOnUp } from 'nehoa'
 // import ContactIcons from '../../components/Contact'
@@ -83,7 +85,7 @@ export default function Main() {
         <p className="section-header">Tech I truly enjoy and <img alt="heart logo" style={{ width: '28px', marginTop: '-6px' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_coraz%C3%B3n.svg/1200px-Heart_coraz%C3%B3n.svg.png" /> working with:</p>
         <Grid container spacing={2}>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
-            <Icon link="https://reactjs.org/">
+            <Icon link={L1Image}>
               <img alt="React JS Logo" style={{ width: '18vw' }} src="https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/2020-05/react-js-blog-header.png?itok=VbfDeSgJ" />
             </Icon>
           </Grid>
@@ -99,7 +101,7 @@ export default function Main() {
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://www.javascript.com/">
-              <img alt="Javascript Logo" style={{ width: '8vw', marginTop: '2vw' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" />
+              <img alt={L2Image} style={{ width: '8vw', marginTop: '2vw' }} src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png" />
             </Icon>
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>

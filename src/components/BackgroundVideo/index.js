@@ -1,5 +1,5 @@
 import React from 'react'
-import MainVideo from '../../assets/videos/seattle2.mp4'
+import MainVideo from '../../assets/videos/Seattle4.mp4'
 
 export default function index(props) {
     return (
