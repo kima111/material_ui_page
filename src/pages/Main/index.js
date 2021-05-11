@@ -9,6 +9,7 @@ import P4Image from '../../assets/images/Optimized/Projects/WordGuessingGamePic.
 import P5Image from '../../assets/images/Optimized/Projects/MEANR.jpg'
 import P6Image from '../../assets/images/Optimized/Projects/Care_Hawaii.jpg'
 import P7Image from '../../assets/images/Optimized/Projects/iSushi2.png'
+import P8Image from '../../assets/images/Optimized/Projects/Nehoa.png'
 import L1Image from '../../assets/images/Optimized/Logos/react.png'
 import L2Image from '../../assets/images/Optimized/Logos/JS.png'
 import mseImage from '../../assets/images/uw_mse.png'
@@ -62,6 +63,9 @@ export default function Main() {
         <p className="section-header">Of course, here are some of my best projects:</p>
         <Grid container spacing={2} justify="center">
         <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
+            <ProjectCard altSource="Nehoa NPM Package" imageSource={P8Image} webLink="https://www.npmjs.com/package/nehoa" title="Nehoa" description="Nehoa is an NPM package filled with useful UI and Transitional Effects. Currently it is in the nascent stages, and will continue to add to the library."/>
+          </Grid>
+          <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="iSushi Project Image" imageSource={P7Image} webLink="https://www.issaquahisushi.com/" title="iSushi" description="Using Next.JS, Sanity.io, and Styled Components, I created a website to help customers navigate a multitude of sushi and teriyaki options. As soon as owner is ready, online ordering will be available."/>
           </Grid>
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
