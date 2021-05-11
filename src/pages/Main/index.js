@@ -8,6 +8,7 @@ import P3Image from '../../assets/images/Optimized/Projects/eQuipt.jpg'
 import P4Image from '../../assets/images/Optimized/Projects/WordGuessingGamePic.png'
 import P5Image from '../../assets/images/Optimized/Projects/MEANR.jpg'
 import P6Image from '../../assets/images/Optimized/Projects/Care_Hawaii.jpg'
+import P7Image from '../../assets/images/Optimized/Projects/iSushi2.png'
 import L1Image from '../../assets/images/Optimized/Logos/react.png'
 import L2Image from '../../assets/images/Optimized/Logos/JS.png'
 import mseImage from '../../assets/images/uw_mse.png'
@@ -60,8 +61,11 @@ export default function Main() {
         </Grid>
         <p className="section-header">Of course, here are some of my best projects:</p>
         <Grid container spacing={2} justify="center">
+        <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
+            <ProjectCard altSource="iSushi Project Image" imageSource={P7Image} webLink="https://www.issaquahisushi.com/" title="iSushi" description="Using Next.JS, Sanity.io, and Styled Components, I created a website to help customers navigate a multitude of sushi and teriyaki options."/>
+          </Grid>
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
-            <ProjectCard altSource="Care Hawaii Project Image" imageSource={P6Image} herokuLink="https://care-hawaii.herokuapp.com/" title="Care Hawaii" description="Created a website for Care Hawaii. Care Hawaii is an organization that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers." />
+            <ProjectCard altSource="Care Hawaii Project Image" imageSource={P6Image} webLink="http://carehawaii.info/" herokuLink="https://care-hawaii.herokuapp.com/" title="Care Hawaii" description="Created a website for Care Hawaii. Care Hawaii is an organization that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers." />
           </Grid>
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="Paju Restaurant Project Image" imageSource={P2Image} webLink="https://www.pajurestaurant.com" title="Paju" description="Volunteered some time to help out a local business during the COVID-19 Pandemic. This is a full stack production website, that uses database triggers to enable real time UI changes. In addition, it enables chronological features using Cron Jobs." />
