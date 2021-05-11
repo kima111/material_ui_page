@@ -62,7 +62,7 @@ export default function Main() {
         <p className="section-header">Of course, here are some of my best projects:</p>
         <Grid container spacing={2} justify="center">
         <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
-            <ProjectCard altSource="iSushi Project Image" imageSource={P7Image} webLink="https://www.issaquahisushi.com/" title="iSushi" description="Using Next.JS, Sanity.io, and Styled Components, I created a website to help customers navigate a multitude of sushi and teriyaki options."/>
+            <ProjectCard altSource="iSushi Project Image" imageSource={P7Image} webLink="https://www.issaquahisushi.com/" title="iSushi" description="Using Next.JS, Sanity.io, and Styled Components, I created a website to help customers navigate a multitude of sushi and teriyaki options. As soon as owner is ready, online ordering will be available."/>
           </Grid>
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="Care Hawaii Project Image" imageSource={P6Image} webLink="http://carehawaii.info/" herokuLink="https://care-hawaii.herokuapp.com/" title="Care Hawaii" description="Created a website for Care Hawaii. Care Hawaii is an organization that helps provide outpatient mental health services to Hawaii's children, adolescents and adults. Created as a full stack application that works with other providers." />
