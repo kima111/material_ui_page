@@ -1,4 +1,4 @@
-import React, {lazy} from 'react'
+import React from 'react'
 import BGVideo from '../../components/BackgroundVideo'
 // import { ReactComponent as Ksvg } from '../../assets/images/Kim.svg'
 import logoImage from '../../assets/images/Logo.png'
@@ -10,7 +10,7 @@ import P5Image from '../../assets/images/Optimized/Projects/MEANR.jpg'
 import P6Image from '../../assets/images/Optimized/Projects/Care_Hawaii.jpg'
 import P7Image from '../../assets/images/Optimized/Projects/iSushi2.png'
 import P8Image from '../../assets/images/Optimized/Projects/Nehoa.png'
-import L1Image from '../../assets/images/Optimized/Logos/react.png'
+// import L1Image from '../../assets/images/Optimized/Logos/react.png'
 import L2Image from '../../assets/images/Optimized/Logos/JS.png'
 import mseImage from '../../assets/images/uw_mse.png'
 import ProjectCard from '../../components/ProjectCard'
@@ -183,7 +183,7 @@ export default function Main() {
           <hr />
           <Grid item sm={12}>
             <div className="education-icon">
-              <img link="https://docs.microsoft.com/en-us/learn/certifications/" alt="Microsoft IT Professional Logo" src="https://www.pngitem.com/pimgs/m/210-2108492_mcitp-logo-microsoft-certified-it-professional-hd-png.png" />
+              <img link="https://mpng.subpng.com/20180712/suh/kisspng-microsoft-certified-professional-microsoft-certifi-5b46fff2647c55.0138753915313796984116.jpg" alt="Microsoft IT Professional Logo" src="https://www.pngitem.com/pimgs/m/210-2108492_mcitp-logo-microsoft-certified-it-professional-hd-png.png" />
             </div>
             <p className="education">
               <b>Microsoft Certified I.T. Professional, Server Administrator</b><br />
