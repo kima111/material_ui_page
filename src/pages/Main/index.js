@@ -11,6 +11,7 @@ import P6Image from '../../assets/images/Optimized/Projects/Care_Hawaii.jpg'
 import P7Image from '../../assets/images/Optimized/Projects/iSushi2.png'
 import P8Image from '../../assets/images/Optimized/Projects/Nehoa.png'
 // import L1Image from '../../assets/images/Optimized/Logos/react.png'
+import CCNPImage from '../../assets/images/ccnp.jpg'
 import L2Image from '../../assets/images/Optimized/Logos/JS.png'
 import mseImage from '../../assets/images/uw_mse.png'
 import ProjectCard from '../../components/ProjectCard'
@@ -171,7 +172,7 @@ export default function Main() {
           <hr />
           <Grid item sm={12}>
             <div className="education-icon">
-              <img link="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-routing-switching.html" alt="Cisco Certified Network Professional Logo" src="https://computingforgeeks.com/wp-content/uploads/2019/07/best-ccnp-rs-books.jpg" />
+              <img link="https://www.cisco.com/c/en/us/training-events/training-certifications/certifications/professional/ccnp-routing-switching.html" alt="Cisco Certified Network Professional Logo" src={CCNPImage} />
             </div>
             <p className="education">
               <b>Cisco Certified Network Professional, Routing and Switching</b><br />
