@@ -61,7 +61,7 @@ export default function Main() {
       
           </Grid>
         </Grid>
-        <p className="section-header">Of course, here are some of my best projects:</p>
+        <p className="section-header">Here are some of my best projects:</p>
         <Grid container spacing={2} justify="center">
         <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="Nehoa NPM Package" imageSource={P8Image} webLink="https://www.npmjs.com/package/nehoa" title="Nehoa" description="Nehoa is an NPM package filled with useful UI and Transitional Effects. Currently it is in the nascent stages, and will continue to add to the library."/>
