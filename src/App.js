@@ -5,13 +5,13 @@ import Layout from '../src/components/Layout'
 function App() {
   return (
     <div>
-    <Router>
+    {/* <Router>
       <Layout>
-      {/* <Switch>
+      <Switch>
         <Route exact path="/" component={MainPage} />
-      </Switch> */}
+      </Switch>
       </Layout>
-    </Router>
+    </Router> */}
     </div>
   );
 }
