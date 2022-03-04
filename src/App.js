@@ -7,9 +7,9 @@ function App() {
     <div>
     <Router>
       <Layout>
-      <Switch>
+      {/* <Switch>
         <Route exact path="/" component={MainPage} />
-      </Switch>
+      </Switch> */}
       </Layout>
     </Router>
     </div>
