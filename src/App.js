@@ -1,5 +1,5 @@
 import MainPage from '../src/pages/Main'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 import Layout from '../src/components/Layout'
 
 function App() {
@@ -7,9 +7,9 @@ function App() {
     <div>
     <Router>
       <Layout>
-      <Switch>
+     
         <Route exact path="/" component={MainPage} />
-      </Switch>
+      
       </Layout>
     </Router>
     </div>
