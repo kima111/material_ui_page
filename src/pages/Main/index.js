@@ -1,6 +1,5 @@
 import React from 'react'
 import BGVideo from '../../components/BackgroundVideo'
-// import { ReactComponent as Ksvg } from '../../assets/images/Kim.svg'
 import logoImage from '../../assets/images/Logo.png'
 import P1Image from '../../assets/images/Optimized/Projects/bamazon.png'
 import P2Image from '../../assets/images/Optimized/Projects/Paju.jpg'
@@ -10,7 +9,6 @@ import P5Image from '../../assets/images/Optimized/Projects/MEANR.jpg'
 import P6Image from '../../assets/images/Optimized/Projects/Care_Hawaii.jpg'
 import P7Image from '../../assets/images/Optimized/Projects/iSushi2.png'
 import P8Image from '../../assets/images/Optimized/Projects/Nehoa.png'
-// import L1Image from '../../assets/images/Optimized/Logos/react.png'
 import CCNPImage from '../../assets/images/ccnp.jpg'
 import L2Image from '../../assets/images/Optimized/Logos/JS.png'
 import mseImage from '../../assets/images/uw_mse.png'
@@ -20,7 +18,6 @@ import { Grid } from '@material-ui/core'
 import Test from '../../assets/images/profile.png'
 import '../Main/index.scss'
 import { FadeOnUp } from 'nehoa'
-// import ContactIcons from '../../components/Contact'
 import {AiOutlineMail, AiFillGithub, AiFillLinkedin} from 'react-icons/ai'
 
 
@@ -36,9 +33,6 @@ export default function Main() {
             <a href="mailto:kima111@gmail.com" className="contact-item1"><AiOutlineMail/></a>
             <a href="https://github.com/kima111" className="contact-item2"><AiFillGithub /></a>
             <a href="https://www.linkedin.com/in/abraham-kim-481a0961/" className="contact-item3"><AiFillLinkedin /></a>
-        {/* <Ksvg className="logo" /> */}
-        {/* <img alt="background" src={Test} style={{ position: 'absolute', zIndex: '-5', top: '0', left: '0', width: '100vw' }} /> */}
-        {/* <div className="contact-items"><ContactIcons/></div> */}
         </BGVideo>
       </div>
       <br />
