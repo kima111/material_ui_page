@@ -110,7 +110,7 @@ export default function Main() {
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://reactjs.org/">
-              <img alt="React JS Logo" style={{ width: '18vw' }} src="https://www.metaltoad.com/sites/default/files/styles/large_personal_photo_870x500_/public/2020-05/react-js-blog-header.png?itok=VbfDeSgJ" />
+              <img alt="React JS Logo" style={{ width: '18vw' }} src="/React-icon.svg.png" />
             </Icon>
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
