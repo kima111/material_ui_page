@@ -38,7 +38,7 @@ export default function Main() {
       <br />
       <div className="mainContainer">
         <Grid container spacing={1} >
-          <Grid item sm={8} xs={11} style={{ borderStyle: 'solid', borderWidth: '2px', borderColor: '#dddddd', borderRadius: '5px', margin: '20px', padding: '15px' }}>
+          <Grid item sm={8} xs={11} style={{ borderStyle: 'solid', borderWidth: '2px', borderColor: '#dddddd', borderRadius: '5px', margin: '70px', padding: '15px' }}>
             <FadeOnUp duration='1s'>
               <p className="paragraph-header">Hello, and welcome to my site</p>
             </FadeOnUp>
