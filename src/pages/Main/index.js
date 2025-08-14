@@ -1,4 +1,3 @@
-import React from 'react'
 import BGVideo from '../../components/BackgroundVideo'
 import logoImage from '../../assets/images/Logo.png'
 import P1Image from '../../assets/images/Optimized/Projects/bamazon.png'
@@ -9,6 +8,7 @@ import P5Image from '../../assets/images/Optimized/Projects/MEANR.jpg'
 import P6Image from '../../assets/images/Optimized/Projects/Care_Hawaii.jpg'
 import P7Image from '../../assets/images/Optimized/Projects/iSushi2.png'
 import P8Image from '../../assets/images/Optimized/Projects/Nehoa.png'
+import P9Image from '../../assets/images/Optimized/Projects/FasterProduction.png'
 import CCNPImage from '../../assets/images/ccnp.jpg'
 import GithubImage from '../../assets/images/Optimized/Logos/GithubLogo.png'
 import L2Image from '../../assets/images/Optimized/Logos/JS.png'
@@ -58,6 +58,9 @@ export default function Main() {
         </Grid>
         <p className="section-header">Here are some of my best projects:</p>
         <Grid container spacing={2} justify="center">
+            <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
+            <ProjectCard altSource="Faster Production" imageSource={P9Image} webLink="https://www.fasterproduction.com//" title="Faster Production" description="A startup uniting Agile collaboration and prioritization with the essential principles of ERP. Developed using Next.js, ShadCN, and Supabase."/>
+          </Grid>
            <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="James Mongrain Glass" imageSource={P3Image} webLink="https://jamesmongrainglass.com/" title="James Mongrain Glass" description="James Mongrain is a world-renowned glass artist and the principal artist at Chihuly’s studio. I volunteered to create this website for him using Next.js, featuring a custom banner that dynamically changes the menu color based on the background."/>
           </Grid>
