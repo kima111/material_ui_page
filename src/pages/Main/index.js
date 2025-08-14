@@ -3,7 +3,7 @@ import BGVideo from '../../components/BackgroundVideo'
 import logoImage from '../../assets/images/Logo.png'
 import P1Image from '../../assets/images/Optimized/Projects/bamazon.png'
 import P2Image from '../../assets/images/Optimized/Projects/Paju.jpg'
-import P3Image from '../../assets/images/Optimized/Projects/eQuipt.jpg'
+import P3Image from '../../assets/images/Optimized/Projects/Mongrain.png'
 import P4Image from '../../assets/images/Optimized/Projects/WordGuessingGamePic.png'
 import P5Image from '../../assets/images/Optimized/Projects/MEANR.jpg'
 import P6Image from '../../assets/images/Optimized/Projects/Care_Hawaii.jpg'
@@ -59,7 +59,7 @@ export default function Main() {
         <p className="section-header">Here are some of my best projects:</p>
         <Grid container spacing={2} justify="center">
            <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
-            <ProjectCard altSource="James Mongrain Glass" imageSource={P8Image} webLink="https://jamesmongrainglass.com/" title="James Mongrain Glass" description="James Mongrain is a world-renowned glass artist and the principal artist at Chihuly’s studio. I volunteered to create this website for him using Next.js, featuring a custom banner that dynamically changes the menu color based on the background."/>
+            <ProjectCard altSource="James Mongrain Glass" imageSource={P3Image} webLink="https://jamesmongrainglass.com/" title="James Mongrain Glass" description="James Mongrain is a world-renowned glass artist and the principal artist at Chihuly’s studio. I volunteered to create this website for him using Next.js, featuring a custom banner that dynamically changes the menu color based on the background."/>
           </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="Nehoa NPM Package" imageSource={P8Image} webLink="https://www.npmjs.com/package/nehoa" title="Nehoa" description="Nehoa is an NPM package filled with useful UI and Transitional Effects. Currently it is in the nascent stages, and will continue to add to the library."/>
@@ -111,7 +111,7 @@ export default function Main() {
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://reactjs.org/">
-              <img alt="React JS Logo" style={{ width: '18vw' }} src={GithubImage} />
+              <img alt="React JS Logo" style={{ width: '18vw' }} src="/React-icon.svg.png" />
             </Icon>
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
@@ -121,7 +121,7 @@ export default function Main() {
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://github.com/">
-              <img alt="Github Logo" style={{ width: '20vw', marginTop: '2vw' }} src="https://s19386.pcdn.co/wp-content/uploads/2017/10/github-logo-1.png" />
+              <img alt="Github Logo" style={{ width: '20vw', marginTop: '2vw' }} src={GithubImage} />
             </Icon>
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
