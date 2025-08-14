@@ -70,16 +70,13 @@ export default function Main() {
             <ProjectCard altSource="Paju Restaurant Project Image" imageSource={P2Image} webLink="https://www.pajurestaurant.com" title="Paju" description="Volunteered some time to help out a local business during the COVID-19 Pandemic. This is a full stack production website, that uses database triggers to enable real time UI changes. In addition, it enables chronological features using Cron Jobs." />
           </Grid>
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
-            <ProjectCard altSource="eQuipt Project Image" imageSource={P3Image} githubLink="https://github.com/Munchinator6354/eQuipt" herokuLink="https://larp-equipt.herokuapp.com/" title="eQuipt" description="A great way for LARPs (Live Action Role Players) to keep stock of their inventory and even give some to other players. A project which uses the full MERN stack (Mongo, Express, React, Node)." />
-          </Grid>
-          <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="Bamazon Project Image" imageSource={P1Image} githubLink="https://github.com/kima111/bamazon" title="Bamazon" description="This is a Command Line Interface app which will work a lot like a purchasing terminal demonstrating the use of Node.js which is connected to a MySQL database." />
           </Grid>
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="Word Guessing Game Project Image" imageSource={P4Image} webLink="https://kima111.github.io/Word-Guess-Game/" githubLink="https://github.com/kima111/Word-Guess-Game" title="Word Guessing Game" description="See if you can guess the words. App demonstrating the use of pure javascript." />
           </Grid>
           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
-            <ProjectCard altSource="MEANR Project Image" imageSource={P5Image} githubLink="https://github.com/kima111/MEANR" herokuLink="https://meanr.herokuapp.com/" title="MEANR" description="A full stack app to help developers build fully stacked applications quickly. This is built with (Mongo, Express, Axios, Node, and React)" />
+            <ProjectCard altSource="MEANR Project Image" imageSource={P5Image} githubLink="https://github.com/kima111/MEANR" title="MEANR" description="A full stack app to help developers build fully stacked applications quickly. This is built with (Mongo, Express, Axios, Node, and React)" />
           </Grid>
         </Grid>
         <hr />
