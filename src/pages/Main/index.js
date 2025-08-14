@@ -10,6 +10,7 @@ import P6Image from '../../assets/images/Optimized/Projects/Care_Hawaii.jpg'
 import P7Image from '../../assets/images/Optimized/Projects/iSushi2.png'
 import P8Image from '../../assets/images/Optimized/Projects/Nehoa.png'
 import CCNPImage from '../../assets/images/ccnp.jpg'
+import GithubImage from '../../assets/images/Optimized/Logos/GithubLogo.png'
 import L2Image from '../../assets/images/Optimized/Logos/JS.png'
 import mseImage from '../../assets/images/uw_mse.png'
 import ProjectCard from '../../components/ProjectCard'
@@ -57,6 +58,9 @@ export default function Main() {
         </Grid>
         <p className="section-header">Here are some of my best projects:</p>
         <Grid container spacing={2} justify="center">
+           <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
+            <ProjectCard altSource="James Mongrain Glass" imageSource={P8Image} webLink="https://jamesmongrainglass.com/" title="James Mongrain Glass" description="James Mongrain is a world-renowned glass artist and the principal artist at Chihuly’s studio. I volunteered to create this website for him using Next.js, featuring a custom banner that dynamically changes the menu color based on the background."/>
+          </Grid>
         <Grid item lg={3} sm={6} xs={12} style={{ textAlign: 'center', margin: '15px', paddingLeft: '25px' }}>
             <ProjectCard altSource="Nehoa NPM Package" imageSource={P8Image} webLink="https://www.npmjs.com/package/nehoa" title="Nehoa" description="Nehoa is an NPM package filled with useful UI and Transitional Effects. Currently it is in the nascent stages, and will continue to add to the library."/>
           </Grid>
@@ -107,7 +111,7 @@ export default function Main() {
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
             <Icon link="https://reactjs.org/">
-              <img alt="React JS Logo" style={{ width: '18vw' }} src="/React-icon.svg.png" />
+              <img alt="React JS Logo" style={{ width: '18vw' }} src={GithubImage} />
             </Icon>
           </Grid>
           <Grid item sm={3} xs={6} style={{ textAlign: 'center' }}>
